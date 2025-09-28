@@ -6,4 +6,4 @@ services:
     startCommand: python main.py
     envVars:
       - key: DISCORD_TOKEN
-        value: MTQyMTc5MzU2NDE3MzUzMzI1NA.GncRtQ.t9XMXtDO5dKgD1Vl7cN0lpP3YwcmsO_OrcW718
+        value: ${DISCORD_TOKEN}
