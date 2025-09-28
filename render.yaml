@@ -7,6 +7,3 @@ services:
     envVars:
       - key: DISCORD_TOKEN
         value: ${DISCORD_TOKEN}
-build:
-  environment:
-    pythonVersion: 3.11.6
